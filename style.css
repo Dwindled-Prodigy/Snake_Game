@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: darkslategrey;
+}
+
+.grid{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    background-color: burlywood;
+}
+
+button.start {
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px; 
+}
+
+div.score {
+    color: white;
+    font-size: 20px;
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: green;
+}
+
+.apple{
+    background-color: red;
+}
